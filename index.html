@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insure | FrontEnd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/171deaa123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="build/css/app.css">
+  
+</head>
+<body data-noScroll="false">
+    <header class="header contenedor">
+        <div class="header__barra">
+            <img src="build/img/logo.svg" alt="Logo Insure">
+
+            <button class="header__btn-toggle" aria-controls="navegacion-principal" aria-expanded="false"></button>
+
+            <nav>
+                <ul id="navegacion-principal" class="navegacion" data-visible="false">
+                    <li><a href="#" class="navegacion__link">How we work</a></li>
+                    <li><a href="#" class="navegacion__link">Blog</a></li>
+                    <li><a href="#" class="navegacion__link">Account</a></li>
+                    <li><a href="#" class="navegacion__link">View plans</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <picture>
+            <source srcset="build/img/image-intro-mobile.avif" type="image/avif">
+            <source srcset="build/img/image-intro-mobile.webp" type="image/webp">
+            <img loading="lazy" src="build/img/image-intro-desktop.jpg" width="500" height="300" alt="Imagen Hero" class="hero__imagen-m">
+        </picture>
+
+        <div class="hero__bg">
+            <div class="contenedor">
+                <div class="hero__contenido">
+                    <div class="hero__info">
+                        <h1 class="hero__heading">Humanizing your insurance.</h1>
+                        <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+                        <a href="#" class="hero__enlace">View Plans</a>
+                    </div>
+
+                    <div class="hero__imagen-c">
+                        <picture>
+                            <source srcset="build/img/image-intro-desktop.avif" type="image/avif">
+                            <source srcset="build/img/image-intro-desktop.webp" type="image/webp">
+                            <img loading="lazy" src="build/img/image-intro-desktop.jpg" width="500" height="300" alt="Imagen Hero" class="hero__imagen-d">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="caracteristicas contenedor">
+        <h2 class="caracteristicas__heading">We're differente</h2>
+        <div class="caracteristicas__contenido">
+            <div class="card">
+                <img src="build/img/icon-snappy-process.svg" alt="Icono proceso" class="card__imagen">
+                <div class="card__contenido">
+                    <h3>Snappy Process</h3>
+                    <p>Our application process can be completed in minutes, not hours. Dont get stuck filling in tedious forms</p>
+                </div>
+            </div> <!--.card-->
+
+            <div class="card">
+                <img src="build/img/icon-affordable-prices.svg" alt="Icono precios" class="card__imagen">
+                <div class="card__contenido">
+                    <h3>Affordable Prices</h3>
+                    <p>We don´t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible</p>
+                </div>
+            </div> <!--.card-->
+
+            <div class="card">
+                <img src="build/img/icon-people-first.svg" alt="Icono persona" class="card__imagen">
+                <div class="card__contenido">
+                    <h3>People First</h3>
+                    <p>Our plans aren´t full of conditions and clasues to prevent payouts. We make sure you're covered when you need it.</p>
+                </div>
+            </div> <!--.card-->
+        </div>
+    </main>
+
+    <section class="nosotros contenedor">
+        <div class="nosotros__contenido">
+            <h2 class="nosotros__heading">Find out more about how we work</h2>
+            <a href="#" class="nosotros__enlace">How we work</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="footer__contenido">
+                <div class="footer__barra">
+                    <img src="build/img/logo.svg" alt="Logo Insure" class="footer__logo">
+
+                    <div class="footer__sociales">
+                        <a href="#" class="footer__iconos">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                        <a href="#" class="footer__iconos">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer__iconos">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                        <a href="#" class="footer__iconos">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div> 
+                </div>
+
+                <div class="enlaces">
+                    <ul class="enlaces__ul">
+                        <li><p class="enlaces__label">Others</p></li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">how we work</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">why insure?</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">check price</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">reviews</a>
+                        </li>
+                    </ul>
+
+                    <ul class="enlaces__ul">
+                        <li><p class="enlaces__label">Others</p></li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">faq</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">terms of use</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">privacy policy</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">cookies</a>
+                        </li>
+                    </ul>
+
+                    <ul class="enlaces__ul">
+                        <li><p class="enlaces__label">Others</p></li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">Sales</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">Support</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">Live chat</a>
+                        </li>
+                    </ul>
+
+                    <ul class="enlaces__ul">
+                        <li><p class="enlaces__label">Others</p></li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">carrers</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">press</a>
+                        </li>
+                        <li class="enlaces__li">
+                            <a href="#" class="enlaces__a">licenses</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="autor">Challenge by Frontend Mentor. Coded by <span>Jampiers Alexander Mucha Osorio.</span></p>
+        </div>
+    </footer>
+
+    <script src="build/js/menuMobile.js"></script>
+</body>
+</html>
